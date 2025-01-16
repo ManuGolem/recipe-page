@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+:root{
+    /* Fondo del container */
+    --White: hsl(0, 0%, 100%);
+    /* Fondo del body */
+    --Stone-100: hsl(30, 54%, 90%);
+    
+    --Stone-150: hsl(30, 18%, 87%);
+    /* Letra */
+    --Stone-600: hsl(30, 10%, 34%);
+    /* Titulo todo */
+    --Stone-900: hsl(24, 5%, 18%);
+    /* Titulo ingredientes inst y nutr */
+    --Brown-800: hsl(14, 45%, 36%);
+    /* Titulo preparation */
+    --Rose-800: hsl(332, 51%, 32%);
+
+    --Rose-50: hsl(330, 100%, 98%);
+}
+*{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--Stone-600);
+}
+body{
+    background-color: var(--Stone-100);
+}
+footer{
+    text-align: center;
+    margin-top:2rem;
+}
+h1,h2 {
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+h1{
+    font-size: 36px;
+}
+img{
+    width: 40rem;
+    border-radius: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.page{
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 40rem;
+    margin-top: 5rem;
+}
+.title{
+    font-weight: 500;
+    color: var(--Stone-900);
+}
+.title-preparation{
+    color:var(--Rose-800);
+    font-size: 18px;
+    font-weight: 600;
+    margin:0;
+}
+.resume{
+    border-radius: 10px;
+    background-color: var(--Rose-50);
+    padding: 1.2rem;
+}
+span{
+    font-weight: 700;
+}
+li{
+    padding-left:1rem ;
+    color: var(--Brown-800);
+}
+ul{
+    margin:0;
+    padding-left: 1rem;
+}
+ol{
+    margin:0;
+    padding-left: 1rem;
+}
+hr{
+    border:none;
+    border-top: 1px solid var(--Stone-900)
+}
+.title-ingredients, .title-nutrition, .title-instructions{
+    font-size: 24px;
+    color:var(--Brown-800);
+    font-weight: 600;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+table{
+    border:none;
+    width: 100%;
+    border-collapse: collapse;
+}   
+tr{
+    border-bottom: 1px solid var(--Stone-900);
+}
+td{
+    padding:1rem 2rem;
+    font-weight: 400;
+}
+.ultimo{
+    border-bottom:none;
+}
+.cant{
+    color:var(--Brown-800)
+}
