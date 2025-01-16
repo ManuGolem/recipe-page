@@ -19,11 +19,11 @@ Users should be able to:
 
 - Desktop :
 
-![Img desktop]()
+![Img desktop](assets/images/recipe-desktop.png)
 
 - Mobile:
 
-![Img Mobile]()
+![Img Mobile](assets/images/recipe-mobile.png)
 ### Links
 - Live Site URL: [recipe-page](https://manugolem.github.io/recipe-page/)
 ## My process
