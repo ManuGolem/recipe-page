@@ -118,3 +118,22 @@ td{
 .cant{
     color:var(--Brown-800)
 }
+@media (max-width:400px){
+    .page,body,img{
+        margin:0;
+        padding:0;
+    }
+    .page{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        border-radius: 0;
+    }
+    .title, .presentation, .ingredients, .instructions, .nutrition{
+        padding-inline:2rem;
+    }
+    .resume{
+        margin-inline:2rem;
+    }
+}
